@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Barre de navigation (Navbar), pied de page (Footer), titres principaux */
+    --bleu-nuit: #1B263B;
+
+    /* Boutons d'appel à l'action, icônes, surlignages importants. */
+    --jaune-securite: #FFD60A;
+
+    /* Sous-titres, bordures, icônes secondaires */
+    --gris-beton: #778DA9;
+
+    /* Fond de page (Background) pour une lecture fluide */
+    --blanc-casse: #F8F9FA;
+
+    /* Texte principal pour un contraste optimal */
+    --noir-antharcite: #0D1B2A;
+}
+
+
+.navbar{
+    background-color: #fff;
+    height: 4rem;
+    margin: 20px;
+
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.heroes-top{
+    background-image: linear-gradient(#0000008c), url(assets/images/bg-apropos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+
+/* Images */
+img{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+/* Footer */
+footer{
+    background-color: var(--bleu-nuit);
+}
+
+footer ul li{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+footer ul li:hover{
+    font-weight: 500;
+    transform: translateX(-8px);
+    -webkit-transform: translateX(-8px);
+    -moz-transform: translateX(-8px);
+    -ms-transform: translateX(-8px);
+    -o-transform: translateX(-8px);
+}

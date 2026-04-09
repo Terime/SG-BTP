@@ -1,0 +1,318 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Barre de navigation (Navbar), pied de page (Footer), titres principaux */
+    --bleu-nuit: #1B263B;
+
+    /* Boutons d'appel à l'action, icônes, surlignages importants. */
+    --jaune-securite: #FFD60A;
+
+    /* Sous-titres, bordures, icônes secondaires */
+    --gris-beton: #778DA9;
+
+    /* Fond de page (Background) pour une lecture fluide */
+    --blanc-casse: #F8F9FA;
+
+    /* Texte principal pour un contraste optimal */
+    --noir-antharcite: #0D1B2A;
+}
+
+/* header{
+    height: 4rem;
+}
+ */
+.navbar{
+    background-color: #fff;
+    height: 4rem;
+    margin: 20px;
+
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.heroes-top{
+    background-image: linear-gradient(#0000008c), url(https://i.pinimg.com/736x/65/1d/26/651d2673dc1238faa5133dba76e89528.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.btn-first{
+    background-color: var(--jaune-securite);
+    color: #fff;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.VoirPlus-button{
+    background-color: var(--bleu-nuit);
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: var(--jaune-securite);
+    display: block;
+    margin: auto;
+    transition: 0,3s;
+    -webkit-transition: 0,3s;
+    -moz-transition: 0,3s;
+    -ms-transition: 0,3s;
+    -o-transition: 0,3s;
+}
+
+nav ul li:hover::after{
+    width: 80%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+/* .nav-link{
+    color: #0D1B2A;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link:active{
+    color: #0D1B2A;
+}
+
+.nav-link::before{
+    content: '';
+    width: 0%;
+    bottom: 0;
+    height: 2px;
+    background: var(--jaune-securite);
+    display: block;
+    margin: auto;
+    transition: 0,4s;
+    -webkit-transition: 0,4s;
+    -moz-transition: 0,4s;
+    -ms-transition: 0,4s;
+    -o-transition: 0,4s;
+}
+
+.nav-link:hover::before{
+    width: 100%;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+} */
+
+
+
+.card-bg{
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.card-bg:hover{
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+}
+
+.carte-1{
+    background-color: #fff;
+    color: var(--noir-antharcite);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.267);
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.carte-2{
+    background-color: var(--jaune-securite);
+    color: var(--noir-antharcite);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.267);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.carte-3{
+    background-color: var(--bleu-nuit);
+    color:#F8F9FA;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.267);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+/* Produits */
+
+/* boutton voir tout */
+button a{
+    text-decoration: none;
+    color: var(--noir-antharcite);
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: #FFD60A; */
+    width: 100%;
+}
+
+.produits{
+    background-color: #f9f9fd;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+img:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
+
+
+/* Avis clients */
+.carousel-avis img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* .card-avis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.carousel-container{
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-avis{
+    display: flex;
+    /*width: max-content;*/
+    animation: scroll 10s linear infinite;
+    -webkit-animation: scroll 10s linear infinite;
+}
+
+
+
+
+
+/* .card{
+    padding: 0;
+} */
+
+
+
+/* Scroll Avis Clients */
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-80%);
+        -webkit-transform: translateX(-80%);
+        -moz-transform: translateX(-80%);
+        -ms-transform: translateX(-80%);
+        -o-transform: translateX(-80%);
+}
+}
+
+/* .carousel-container:hover .carousel{
+    animation-play-state: paused;
+} */
+
+
+/* Footer */
+footer{
+    background-color: var(--bleu-nuit);
+}
+
+footer ul li{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+footer ul li:hover{
+    font-weight: 500;
+    transform: translateX(-8px);
+    -webkit-transform: translateX(-8px);
+    -moz-transform: translateX(-8px);
+    -ms-transform: translateX(-8px);
+    -o-transform: translateX(-8px);
+}

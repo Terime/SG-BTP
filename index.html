@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>S.G. BTP</title>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <header class="d-flex justify-content-center shadow-sm sticky-top">
+      <nav class="navbar navbar-expand-lg shadow fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">SG BTP</a>
+          <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SG BTP</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 gap-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#service">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#realisation">Realisation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="a-propos.html">A-Propos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacts.html">Contacts</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <main>
+        <!-- Baniere -->
+        <div class="container-heros col-xxl-8 text-white">
+          <div class="d-flex flex-column justify-content-center bg-primary text-center heroes-top">
+            <h1 class="display-5 fw-bold text-uppercase">Bâtir l'avenir, pierre par pierre</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Donnez vie à vos projets de construction</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn bg-primary btn-first btn-lg px-4 gap-3">En savoir plus</button>
+                <button type="button" class="btn bg btn-outline-secondary btn-lg px-4">Devis gratuit</button>
+              </div>
+            </div>
+          </div>
+
+            <!-- Cartes Chiffres -->
+            <div class="container justify-content-center py-5 chiffres">
+              <div class="row justify-content-center gap-3">
+                <div class="card-bg text-center py-4 col-2 col-md-12 col-sx-12 d-flex flex-column justify-content-center align-items-center carte-1" style="width: 18rem">
+                    <h4 class="card-title fw-bold">15 ans</h4>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">D'experience</h6>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita.</p>
+                </div>
+                <div class="card-bg text-center col-3 col-md-12 col-sx-12 d-flex flex-column justify-content-center align-items-center carte-2" style="width: 18rem">
+                    <h4 class="card-title fw-bold">+500</h4>
+                    <h6 class="card-subtitle mb-2">Projets livrés</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate.</p>
+                </div>
+                <div class="card-bg col-3 col-md-12 col-sx-12 text-center d-flex flex-column justify-content-center align-items-center carte-3" style="width: 18rem">
+                    <h4 class="card-title fw-bold">98%</h4>
+                    <h6 class="card-subtitle mb-2">De clients satisfaits</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores!</p>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Produits et services -->
+        <div class="container rounded-5 produits">
+          <div class="d-flex flex-column align-items-center">
+            <div class="text">
+              <div class="text d-flex align-items-center py-4">
+                <h4 class="" id="service">Services et Produits</h4>
+              </div>
+            </div>
+            <!-- Cartes -->
+            <div class="row gap-2 justify-content-center pb-5 services">
+              <div class="col d-flex flex-column align-items-center">
+                <div class="card px-0 col-4 col-md-12 shadow overflow-hidden rounded-5" style="width: 20rem; height: 20rem;">
+                  <img src="assets/images/briques.png" class="img-fluid" alt="">
+                </div>
+                <h4 class="fw-bold mt-2">Vente de matériaux</h4>
+              </div>
+              <div class="col d-flex flex-column align-items-center">
+                <div class="card px-0 col-4 col-md-12 shadow overflow-hidden rounded-5" style="width: 20rem; height: 20rem;">
+                  <img src="assets/images/construction.png" class="img-fluid" alt="">
+                </div>
+                <h4 class="fw-bold mt-2">Maçonnerie générale</h4>
+              </div>
+              <div class="col d-flex flex-column align-items-center">
+                <div class="card px-0 col-4 col-md-12 shadow overflow-hidden rounded-5" style="width: 20rem; height: 20rem;">
+                  <img src="assets/images/beton.png" class="img-fluid" alt="">
+                </div>
+                <h4 class="fw-bold mt-2">Béton prêt à l'emploi</h4>
+              </div>
+            </div>
+            <a href="" class="VoirPlus-button mb-5">Voir plus</a>
+          </div>
+        </div>
+
+
+        <!-- Autre section -->
+        <div class="container d-flex align-items-center col-xxl-8 px-4 my-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5">
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold lh-1 mb-3">Nos realisations</h1>
+              <p class="lead">Par notre professionalisme nous avons accompagne une panoplie d'entreprises et de particuliers dans la construction de leurs projets de constructions, de dalletage et bien d'autres.</p>
+              <a href="#" class="btn btn-primary">Voir plus</a>
+            </div>
+
+            <div class="col-10 col-sm-8 col-lg-6 slide">
+              <div class="container rounded-3">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner rounded-5 shadow">
+                      <div class="carousel-item active">
+                        <img src="assets/images/bg-index-1.png" class="d-block img-fluid" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/canalisation-2.png" class="d-block img-fluid" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/beton.png" class="d-block img-fluid" alt="">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Realisations -->
+        <div class="container rounded-5 realisation" id="realisation">
+          <div class="d-flex flex-column align-items-center">
+            <div class="text">
+              <div class="text d-flex align-items-center py-4">
+                <h4 class="">Realisations</h4>
+              </div>
+            </div>
+            <!-- Cartes -->
+            <div class="container d-flex flex-column gap-2 justify-content-center align-items-center pb-5 services">
+              <div class="row">
+                <div class="col d-flex flex-column align-items-center">
+                  <div class="card px-0 col-4 col-md-12 shadow overflow-hidden rounded-5  border-5 border-white" style="width: 20rem; height: 20rem;">
+                    <img src="assets/images/Tour-Jumelles.png" class="img-fluid" alt="">
+                  </div>
+                  <h5 class="fw-bold mt-4">Tours Jumelles</h5>
+                  <p class="lead">Talangai, Brazzaville</p>
+                </div>
+                <div class="col d-flex flex-column align-items-center">
+                  <div class="card px-0 col-4 col-md-12 shadow overflow-hidden rounded-5 border-5 border-white" style="width: 20rem; height: 20rem;">
+                    <img src="assets/images/Tour-Nambemba.png" class="img-fluid" alt="">
+                  </div>
+                  <h5 class="fw-bold mt-4">Tour Nambemba</h5>
+                  <p class="lead">Poto-Poto, Brazzaville</p>
+                </div>
+                <div class="col d-flex flex-column align-items-center">
+                  <div class="card px-0 col-4 col-md-12 shadow overflow-hidden rounded-5 border-5 border-white" style="width: 20rem; height: 20rem;">
+                    <img src="assets/images/piscine.png" class="img-fluid" alt="">
+                  </div>
+                  <h5 class="fw-bold mt-4">Piscine Olympique</h5>
+                  <p class="lead">32 rue de la piscine Q.Diata, Brazzaville</p>
+                </div>
+                <div class="col d-flex flex-column align-items-center">
+                  <div class="card px-0 col-4 col-md-12 shadow overflow-hidden rounded-5 border-5 border-white" style="width: 20rem; height: 20rem;">
+                    <img src="assets/images/Stade-Kintele.png" class="img-fluid" alt="">
+                  </div>
+                  <h5 class="fw-bold mt-4">Stade Kintlele</h5>
+                  <p class="lead">Kintele, Brazzaville</p>
+                </div>
+                <div class="col d-flex flex-column align-items-center">
+                  <div class="card px-0 col-4 col-md-12 shadow overflow-hidden rounded-5 border-5 border-white" style="width: 20rem; height: 20rem;">
+                    <img src="assets/images/Atlantic-Palace.png" class="img-fluid" alt="">
+                  </div>
+                  <h5 class="fw-bold mt-4">Hotel Atlantic Palace</h5>
+                  <p class="lead">Centre-ville, Pointe-Noire</p>
+                </div>
+                <div class="col d-flex flex-column align-items-center">
+                  <div class="card px-0 col-4 col-md-12 shadow overflow-hidden rounded-5 border-5 border-white" style="width: 20rem; height: 20rem;">
+                    <img src="assets/images/Gare.png" class="img-fluid" alt="">
+                  </div>
+                  <h5 class="fw-bold mt-4">Gare de Pointe-Noire (Renovation)</h5>
+                  <p class="lead">Centre-ville, Pointe-Noire</p>
+                </div>
+              </div>
+              <a href="" class="VoirPlus-button mb-5">Voir plus</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Avis clients -->
+        <div class="carousel-container avis-clients py-5">
+          <div class="text d-flex align-items-center px-4 py-4">
+            <h4 class="">Avis clients</h4>
+          </div>
+          <div class="carousel-avis">
+            <div class="carousel-inner d-flex justify-content-center gap-3">
+              <div class="card col-3 col-sx-12 shadow card-avis">
+                <div class="card-body pt-1">
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores sunt corrupti facere?Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <img src="https://i.pinimg.com/736x/65/1d/26/651d2673dc1238faa5133dba76e89528.jpg" alt="">
+                    <div class="ps-2">
+                      <h5 class="card-title">Titre</h5>
+                      <span>CEO, Milane</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-3 col-sx-12 shadow card-avis">
+                <div class="card-body pt-1">
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores sunt corrupti facere?Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <img src="https://i.pinimg.com/736x/65/1d/26/651d2673dc1238faa5133dba76e89528.jpg" alt="">
+                    <div class="ps-2">
+                      <h5 class="card-title">Titre</h5>
+                      <span>CEO, Milane</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-3 col-sx-12 shadow card-avis">
+                <div class="card-body pt-1">
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores sunt corrupti facere?Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <img src="https://i.pinimg.com/736x/65/1d/26/651d2673dc1238faa5133dba76e89528.jpg" alt="">
+                    <div class="ps-2">
+                      <h5 class="card-title">Titre</h5>
+                      <span>CEO, Milane</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-3 col-sx-12 shadow card-avis">
+                <div class="card-body pt-1">
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores sunt corrupti facere?Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <img src="https://i.pinimg.com/736x/65/1d/26/651d2673dc1238faa5133dba76e89528.jpg" alt="">
+                    <div class="ps-2">
+                      <h5 class="card-title">Titre</h5>
+                      <span>CEO, Milane</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Partenaires -->
+        <div class="container partenaires">
+          <div class="text d-flex align-items-center py-4">
+            <h4 class="">Partenaires</h4>
+          </div>
+          <div class="row gap-5">
+            <div class="col col-lg-4 col-sx-3 mb-2 rounded-5" style="height: 120px; width: 120px;">
+                <img src="assets/logo/a.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col col-lg-4 col-sx-3 mb-2 rounded-5" style="height: 120px; width: 120px;">
+                <img src="assets/logo/FB_IMG_17086905387080178.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col col-lg-4 col-sx-3 mb-2 rounded-5" style="height: 120px; width: 120px;">
+                <img src="assets/logo/FB_IMG_17087681564010511.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col col-lg-4 col-sx-3 mb-2 rounded-5" style="height: 120px; width: 120px;">
+                <img src="assets/logo/FB_IMG_17087681809745678.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col col-lg-4 col-sx-3 mb-2 rounded-5" style="height: 120px; width: 120px;">
+                <img src="assets/logo/s.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col col-lg-4 col-sx-3 mb-2 rounded-5" style="height: 120px; width: 120px;">
+                <img src="assets/logo/FB_IMG_17087681988746817.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+    </main>
+
+    <footer class="text-light py-5 mt-5">
+      <div class="container px-5">
+        <div class="row">
+          <div class="col-6 col-lg-4">
+            <div class="li">
+              <h3 class="pt-3 fw-bold">SG BTP</h3>
+              <p>Pour toute informations, veuillez vous rapprocher de notre direction ou nous contacter.</p>
+              <div class="icon-text d-flex gap-1">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p>rue Marie Bella, Pointe-Noire, R.Congo</p>
+              </div>
+              <div class="icon-text d-flex gap-1">
+                <i class="bi bi-envelope-fill"></i>
+                  <p class="">infossgbtp@gmail.com</p>
+              </div>
+              <div class="icon-text d-flex gap-1">
+                <i class="bi bi-telephone-fill"></i>
+                <p class="mb-0">06 855 1287</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="li">
+              <h4 class="pt-3">Liens importants</h4>
+              <ul class="list-unstyled">
+                <li><a href="" class="text-decoration-none text-light">Accueil</a></li>
+                <li><a href="" class="text-decoration-none text-light">Services</a></li>
+                <li><a href="" class="text-decoration-none text-light">Realisations</a></li>
+                <li><a href="" class="text-decoration-none text-light">A-Propos</a></li>
+                <li><a href="" class="text-decoration-none text-light">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="li">
+              <h4 class="pt-3">Services</h4>
+              <ul class="list-unstyled">
+                <li><a href="" class="text-decoration-none text-light">Vente de materiaux</a></li>
+                <li><a href="" class="text-decoration-none text-light">Maçonnerie générale</a></li>
+                <li><a href="" class="text-decoration-none text-light">Béton prêt à l'emploi</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="li">
+              <h4 class="pt-3">Realisations</h4>
+              <ul class="list-unstyled">
+                <li><a href="#realisation" class="text-decoration-none text-light">Hotel Atlantic Palace</a></li>
+                <li><a href="#realisation" class="text-decoration-none text-light">Stade Kintlele</a></li>
+                <li><a href="#realisation" class="text-decoration-none text-light">Tours Jumelles</a></li>
+                <li><a href="#realisation" class="text-decoration-none text-light">Piscine Olympique</a></li>
+                <li><a href="#realisation" class="text-decoration-none text-light">Tour Nambemba</a></li>
+                <li><a href="#realisation" class="text-decoration-none text-light">Gare de Pointe-Noire</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="mt-4">
+          <div class="mb-0 d-flex align-items-center justify-content-between">
+            <div class="icones">
+              <a href="#" class="text-decortion-none text-light">
+                <i class="bi bi-facebook fs-5 me-3"></i>
+              </a>
+              <a href="#" class="text-decortion-none text-light">
+                <i class="bi bi-instagram fs-5 me-3"></i>
+              </a>
+              <a href="#" class="text-decortion-none text-light">
+                <i class="bi bi-tiktok fs-5"></i>
+              </a>
+            </div>
+            <p class="text-center mb-0">&copy; 2026 SG BTP. Tous droits réservés</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
